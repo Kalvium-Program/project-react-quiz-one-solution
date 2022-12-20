@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
 
-## Available Scripts
+# Kalvium PROJECT BUILDER | REACT - QUIZ STAGE I - UI
 
-In the project directory, you can run:
+## Learning Goals
 
-### `npm start`
+In this exercise, the goal is to learn building a complete quiz app on a stage by stage basis:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- when and how to setup react in your application,
+- how to create multiple compoents and design it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting started
 
-### `npm test`
+1. Fork this repo
+2. Clone this repo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Whenever you create a first significant change, you should make your first commit.
 
-### `npm run build`
+3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In the end of this document, you will find guidelines on how to submit the exercise.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Introduction
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In this exercise, you will try to work with component and css. 
 
-### `npm run eject`
+create a new react app using the following command
+```
+npx create-react-app quiz
+cd quiz
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Now go to your app.js and remove the unnecessary code. Your app.js should be looking similar to the this.
+```
+import React from 'react';
+import HigherOrderFunctions from './components/hof/HigherOrderFunctions';
+import './App.css';
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+function App() {
+  return (
+    <div className="App">
+ 
+    </div>
+  );
+}
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+export default App;
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Your task is to create three components
+**- HomeComponent**
+**- QuizComponent**
+**- ResultComponent**
 
-## Learn More
+**Note: use rcc to generate the code template. Please keep everything as a static output on the stage - 1. We will make it dynamic over the course**.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+So let's get started!
+Check below to see the overall output: You will be trying to replicate this
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### PROGRESSION 1 | HOMECOMPONENT
+![Image description](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/react-quiz-home.png)
 
-### Code Splitting
+### PROGRESSION 2 | QUIZCOMPONENT
+![Image description](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/react-quiz-question.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### PROGRESSION 3 | RESULTCOMPONENT
+![Image description](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/react-quiz-score.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Summary
 
-### Making a Progressive Web App
+If you managed to do it, good job! :trophy:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+We are proud of you!
 
-### Advanced Configuration
+Happy Coding Kalvium ❤️!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
